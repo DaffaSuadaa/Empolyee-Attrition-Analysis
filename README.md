@@ -1,6 +1,7 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
 ## Business Understanding
+Jaya Jaya Maju adalah perusahaan multinasional dengan lebih dari 1000 karyawan. Meskipun telah beroperasi sejak tahun 2000 dan mengalami pertumbuhan signifikan, perusahaan menghadapi tantangan serius dalam mengelola dan mempertahankan karyawan, yang ditandai dengan tingginya tingkat attrition (lebih dari 10%).
 
 
 ### Permasalahan Bisnis
