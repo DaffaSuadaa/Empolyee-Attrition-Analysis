@@ -1,4 +1,4 @@
-# Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
+# Submission Pertama: Menyelesaikan Permasalahan Human Resources
 
 ## Business Understanding
 Jaya Jaya Maju adalah perusahaan multinasional dengan lebih dari 1000 karyawan. Meskipun telah beroperasi sejak tahun 2000 dan mengalami pertumbuhan signifikan, perusahaan menghadapi tantangan serius dalam mengelola dan mempertahankan karyawan, yang ditandai dengan tingginya tingkat attrition (lebih dari 10%).
@@ -20,27 +20,39 @@ Attrition rate yang tinggi menimbulkan biaya besar bagi perusahaan, sementara ma
 
 Sumber data: [Dataset Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
-Setup environment:
+
+## Setup Environment
+1. Ekstrack Folder .zip
+
+Ekstrak file attrition-analysis.zip, berikut tampilan struktur folder setelah di ekstrack:
 
 ```
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sqlalchemy import create_engine
+attrition-analysis/
+├── Attrition_Analysis_Dicoding.ipynb     
+├── cleaned_employee_data.csv            
+├── employee_data.csv                     
+├── random_forest_model.joblib          
+├── daffa_suada_i9ug-dashboard.png       
+├── link-dashboard.txt                     
+├── requirements.txt                      
+├── README.md                             
+```
+2. Buat setup environtment dan aktifkan dengan kode berikut :
+```
+conda create --name attrition-env python=3.11
+conda activate attrition-env
+```
+Note : Karena requirement.txt berada dalam attrition-analysis maka :
+```
+cd attrition-analysis
+```
+```
+pip install -r requirements.txt
+```
 
-from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split
-
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
-from xgboost import XGBClassifier
-from sklearn.tree import DecisionTreeClassifier
-
-from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
-
-from joblib import dump, load
+3. Jalankan notebook
+```
+Attrition_Analysis_Dicoding.ipynb
 ```
 
 ## Business Dashboard
